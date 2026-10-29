@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#191827">
+<title>البث التلفزيوني المباشر</title>
+<style>
+:root{--bg:#191827;--panel:#252436;--line:#45445c;--text:#f7f6fb;--muted:#aaa8bd;--blue:#09a9ff;--gold:#f5d400}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at 75% 20%,#302d4a 0,#1b1a2b 50%,#12121f 100%);color:var(--text);font-family:Tahoma,Arial,sans-serif;min-height:100vh}
+button,input{font:inherit}
+button{cursor:pointer}
+.topbar{height:100px;display:flex;align-items:center;gap:22px;padding:16px 4.5%;border-bottom:2px solid #d7d4e3;background:#201f30d9}
+.back,.round-icon{border:0;border-radius:50%;background:#343348;color:#fff;width:60px;height:60px;font-size:28px;flex-shrink:0}
+h1{font-size:clamp(20px,2.2vw,34px);margin:0;white-space:nowrap}
+.search{margin-inline-start:auto;max-width:480px;min-width:180px;width:36%;border:0;border-radius:35px;padding:18px 24px;background:#38364d;color:white;font-size:18px;outline:1px solid #4a4860}
+.top-icons{display:flex;gap:14px}
+.round-icon{width:58px;height:58px;font-size:23px}
+.layout{display:grid;grid-template-columns:minmax(220px,30%) minmax(360px,33%) minmax(320px,37%);min-height:calc(100vh - 100px)}
+.sidebar,.channels,.viewer{padding:20px 22px;min-width:0}
+.sidebar,.channels{border-left:2px solid #dedbe9}
+.side-search{height:70px;border:2px solid #dedbe9;display:flex;align-items:center;justify-content:center;font-size:clamp(16px,1.8vw,26px);margin-bottom:10px;background:#17162580}
+.side-item{height:72px;margin-bottom:8px;border:2px solid var(--line);background:#2a293aab;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:clamp(16px,1.7vw,25px);gap:10px}
+.side-item.active{color:var(--gold);font-weight:bold}
+.side-item span:last-child{white-space:nowrap}
+.channels{padding-inline:18px;overflow:auto}
+.channel{min-height:72px;border:2px solid var(--line);background:#29283aab;display:flex;align-items:center;gap:12px;padding:9px 10px;margin-bottom:7px;transition:border-color .15s,background .15s}
+.channel.selected{border-color:#7775a1;background:#343249}
+.channel-num{font-size:27px;font-weight:bold;min-width:28px;text-align:center;direction:ltr}
+.logo{width:49px;height:43px;flex-shrink:0;display:grid;place-items:center;background:#f5f4f8;color:#25243b;font-weight:bold;font-size:12px;text-align:center;overflow:hidden}
+.logo.generic{background:#f8f8fb;color:#29283a;font-size:25px}
+.channel-name{font-size:clamp(14px,1.55vw,22px);font-weight:bold;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.add-link{border:2px solid var(--blue);border-radius:22px;background:#191a2c;color:#fff;padding:9px 10px;white-space:nowrap;font-size:13px;box-shadow:0 0 10px #009cff22;flex-shrink:0}
+.add-link:hover,.add-link:focus{background:#063754;outline:none}
+.viewer{display:flex;flex-direction:column;gap:18px}
+.player{width:100%;aspect-ratio:16/9;background:#090910;border:1px solid #48465a;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}
+video{width:100%;height:100%;object-fit:contain;background:#08080d}
+.placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:linear-gradient(145deg,#fafafa,#e9e9ed);color:#9b8c63;text-align:center;padding:20px}
+.placeholder .qr{font-size:68px;color:#343344;border:3px solid #d3b16b;padding:8px;background:#fff}
+.placeholder small{font-size:13px}
+.viewer-spacer{flex:1;min-height:100px;background:linear-gradient(180deg,#25243a66,#11111d88);border-radius:8px}
+.bottom-tabs{display:flex;justify-content:space-around;gap:10px;background:#201f30b8;border-radius:28px;padding:12px 8px}
+.bottom-tabs span{padding:8px 10px;font-size:15px;white-space:nowrap}
+.status{font-size:13px;color:#c9c7d8;min-height:18px}
+.modal-backdrop{position:fixed;inset:0;background:#080811cc;display:none;align-items:center;justify-content:center;padding:18px;z-index:10}
+.modal-backdrop.open{display:flex}
+.modal{width:min(100%,520px);background:#242337;border:1px solid #575570;border-radius:18px;padding:24px;box-shadow:0 20px 70px #0009}
+.modal h2{margin:0 0 8px;font-size:23px}
+.modal p{color:#c7c5d8;line-height:1.7;margin:0 0 16px}
+.modal label{display:block;margin:12px 0 7px}
+.modal input{width:100%;padding:13px 14px;border-radius:9px;border:1px solid #5a5873;background:#171625;color:#fff;direction:ltr;text-align:left;outline:none}
+.modal input:focus{border-color:var(--blue)}
+.modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.action{border:1px solid #55536d;background:#343249;color:#fff;border-radius:9px;padding:11px 16px}
+.action.primary{background:#087fc1;border-color:#0baaff}
+.action.danger{background:#632b3b;border-color:#a95068}
+.action:disabled{opacity:.45;cursor:not-allowed}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#29283b;border:1px solid #55536d;color:white;padding:12px 18px;border-radius:12px;display:none;z-index:20;max-width:90%;text-align:center}
+.toast.show{display:block}
+@media(max-width:1050px){.topbar{gap:10px;padding:12px}.top-icons{gap:6px}.round-icon{width:42px;height:42px}.layout{grid-template-columns:220px minmax(330px,1fr)}.viewer{grid-column:1/-1;border-top:2px solid #45445c}.sidebar,.channels{padding:14px}.channel{gap:8px}.channel-name{font-size:17px}.add-link{font-size:12px;padding:8px}}
+@media(max-width:650px){.topbar{height:auto;flex-wrap:wrap}.topbar h1{font-size:21px}.back{width:42px;height:42px}.search{order:5;width:100%;max-width:none}.top-icons{margin-inline-start:auto}.layout{display:flex;flex-direction:column}.sidebar{border-left:0;border-bottom:2px solid #45445c}.side-item{height:52px}.channels{border-left:0;border-bottom:2px solid #45445c}.channel{min-height:64px}.viewer{padding:14px}.bottom-tabs span{font-size:12px;padding:6px 2px}.viewer-spacer{min-height:45px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button class="back" aria-label="رجوع" onclick="history.back()">‹</button>
+  <h1>البث التلفزيوني المباشر</h1>
+  <input id="search" class="search" type="search" placeholder="بحث" aria-label="بحث عن قناة">
+  <div class="top-icons" aria-label="القوائم">
+    <button class="round-icon" title="التلفزيون">♧</button>
+    <button class="round-icon" title="التسجيلات">▣</button>
+    <button class="round-icon" title="المشغل">▷</button>
+    <button class="round-icon" title="الإعدادات">⚙</button>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="sidebar">
+    <div class="side-search">Search in categories</div>
+    <div class="side-item active"><span>الكل</span><span></span></div>
+    <div class="side-item"><span>Recently Viewed</span><span>8</span></div>
+    <div class="side-item"><span>المفضله</span><span>0</span></div>
+    <div class="side-item"><span>القنوات</span><span id="channel-count">11</span></div>
+  </aside>
+
+  <section class="channels" id="channel-list" aria-label="قائمة القنوات"></section>
+
+  <section class="viewer">
+    <div class="player">
+      <div class="placeholder" id="placeholder">
+        <div class="qr">▦</div>
+        <strong>البث التلفزيوني المباشر</strong>
+        <small>اختر قناة ثم أضف رابط البث الخاص بها</small>
+      </div>
+      <video id="video" controls playsinline crossorigin="anonymous" hidden></video>
+    </div>
+    <div class="viewer-spacer"></div>
+    <div class="status" id="status" aria-live="polite">اختر قناة لبدء المشاهدة</div>
+    <div class="bottom-tabs">
+      <span>♡　 المفضله</span>
+      <span>◷　 اللاحق بالركب</span>
+      <span>⊙　 اللاعبون الخارجيون</span>
+    </div>
+  </section>
+</main>
+
+<div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal">
+    <h2 id="modal-title">إضافة رابط بث</h2>
+    <p id="modal-description">أدخل رابط البث لهذه القناة. يُحفظ الرابط في هذا المتصفح.</p>
+    <label for="stream-url">رابط البث</label>
+    <input id="stream-url" type="url" placeholder="https://example.com/live.m3u8" autocomplete="url">
+    <div class="modal-actions">
+      <button class="action primary" id="save-url">حفظ الرابط</button>
+      <button class="action" id="cancel-modal">إلغاء</button>
+      <button class="action danger" id="delete-url">حذف الرابط</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<!-- hls.js enables HLS (.m3u8) playback in browsers that do not support it natively. -->
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+<script>
+(() => {
+  const channels = [
+    {id:'jordan',name:'الأردن دراما — التلفزيون ..',logo:'JORDAN',color:'#f7f7fb'},
+    {id:'badawiya',name:'البدوية دراما (الأردن درا..',logo:'▰',generic:true},
+    {id:'zekrayat',name:'ذكريات',logo:'▰',generic:true},
+    {id:'wesam',name:'الوسام الفضائية — نبض ..',logo:'W',color:'#087f55'},
+    {id:'sahraa',name:'الصحراء',logo:'▰',generic:true},
+    {id:'aseel',name:'أصيل',logo:'أصيل',color:'#1b9ba7'},
+    {id:'ekhbariya',name:'الإخبارية السعودية',logo:'الإخبارية',color:'#1d315f'},
+    {id:'hadath',name:'الحدث',logo:'الحدث',color:'#29283a'},
+    {id:'channel9',name:'قناة 9',logo:'9',generic:true},
+    {id:'channel10',name:'قناة 10',logo:'10',generic:true},
+    {id:'channel11',name:'قناة 11',logo:'11',generic:true}
+  ];
+  const STORAGE_KEY = 'almoghani_stream_urls_v1';
+  let streamUrls = {};
+  try { streamUrls = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') || {}; } catch (_) { streamUrls = {}; }
+  let editingId = null;
+  let selectedId = null;
+  let hls = null;
+  const list = document.getElementById('channel-list');
+  const video = document.getElementById('video');
+  const placeholder = document.getElementById('placeholder');
+  const status = document.getElementById('status');
+  const backdrop = document.getElementById('modal-backdrop');
+  const urlInput = document.getElementById('stream-url');
+  const toast = document.getElementById('toast');
+
+  function safeText(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+  function notify(message) {
+    toast.textContent = message;
+    toast.classList.add('show');
+    clearTimeout(notify.timer);
+    notify.timer = setTimeout(() => toast.classList.remove('show'), 2800);
+  }
+  function persist() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(streamUrls));
+      return true;
+    } catch (_) {
+      notify('تعذر حفظ الرابط في المتصفح. تحقق من إعدادات التخزين.');
+      return false;
+    }
+  }
+  function renderChannels(filter = '') {
+    const q = filter.trim().toLocaleLowerCase();
+    list.innerHTML = '';
+    channels.filter(c => c.name.toLocaleLowerCase().includes(q)).forEach((c, i) => {
+      const row = document.createElement('div');
+      row.className = 'channel' + (selectedId === c.id ? ' selected' : '');
+      const logoClass = c.generic ? 'logo generic' : 'logo';
+      row.innerHTML = `
+        <span class="channel-num">${channels.indexOf(c)+1}</span>
+        <span class="${logoClass}" style="background:${c.color || '#f5f4f8'}">${safeText(c.logo)}</span>
+        <span class="channel-name" title="${safeText(c.name)}">${safeText(c.name)}</span>
+        <button class="add-link" type="button" data-add="${c.id}">🔗 ${streamUrls[c.id] ? 'تعديل الرابط' : 'إضافة رابط بث'}</button>`;
+      row.addEventListener('click', e => {
+        if (e.target.closest('[data-add]')) return;
+        selectChannel(c.id);
+      });
+      row.querySelector('[data-add]').addEventListener('click', () => openModal(c.id));
+      list.appendChild(row);
+    });
+  }
+  function openModal(id) {
+    editingId = id;
+    const c = channels.find(x => x.id === id);
+    document.getElementById('modal-title').textContent = streamUrls[id] ? 'تعديل رابط البث' : 'إضافة رابط بث';
+    document.getElementById('modal-description').textContent = `القناة: ${c.name} — أدخل رابط بث مباشر مسموح لك باستخدامه.`;
+    urlInput.value = streamUrls[id] || '';
+    document.getElementById('delete-url').disabled = !streamUrls[id];
+    backdrop.classList.add('open');
+    setTimeout(() => urlInput.focus(), 30);
+  }
+  function closeModal() { backdrop.classList.remove('open'); editingId = null; }
+  function validUrl(value) {
+    try {
+      const u = new URL(value);
+      return u.protocol === 'http:' || u.protocol === 'https:';
+    } catch (_) { return false; }
+  }
+  function saveUrl() {
+    const value = urlInput.value.trim();
+    if (!value || !validUrl(value)) {
+      notify('أدخل رابطًا صحيحًا يبدأ بـ https:// أو http://');
+      urlInput.focus();
+      return;
+    }
+    streamUrls[editingId] = value;
+    if (persist()) {
+      const id = editingId;
+      closeModal();
+      renderChannels(document.getElementById('search').value);
+      notify('تم حفظ رابط البث');
+      selectChannel(id);
+    }
+  }
+  function stopCurrent() {
+    if (hls) { hls.destroy(); hls = null; }
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+  }
+  function selectChannel(id) {
+    selectedId = id;
+    renderChannels(document.getElementById('search').value);
+    const c = channels.find(x => x.id === id);
+    const url = streamUrls[id];
+    if (!url) {
+      stopCurrent();
+      video.hidden = true;
+      placeholder.hidden = false;
+      status.textContent = `القناة المحددة: ${c.name} — اضغط «إضافة رابط بث» لإدخال الرابط.`;
+      return;
+    }
+    stopCurrent();
+    placeholder.hidden = true;
+    video.hidden = false;
+    status.textContent = `جارٍ تحميل: ${c.name}`;
+    const isHls = /\.m3u8($|[?#])/i.test(url);
+    if (isHls && video.canPlayType('application/vnd.apple.mpegurl')) {
+      video.src = url;
+      video.play().catch(() => { status.textContent = 'الرابط جاهز؛ اضغط تشغيل داخل المشغّل.'; });
+    } else if (isHls && window.Hls && Hls.isSupported()) {
+      hls = new Hls();
+      hls.loadSource(url);
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        video.play().catch(() => { status.textContent = 'تم تحميل البث؛ اضغط تشغيل داخل المشغّل.'; });
+      });
+      hls.on(Hls.Events.ERROR, (_, data) => {
+        if (data.fatal) status.textContent = 'تعذر تشغيل البث. تحقق من الرابط أو من قيود CORS أو حماية المصدر.';
+      });
+    } else {
+      video.src = url;
+      video.play().catch(() => { status.textContent = 'تعذر التشغيل التلقائي؛ اضغط تشغيل. قد لا يكون تنسيق الرابط مدعومًا.'; });
+    }
+    video.onplaying = () => { status.textContent = `يعمل الآن: ${c.name}`; };
+    video.onerror = () => { status.textContent = 'تعذر تشغيل الرابط. قد يكون غير صالح أو يتطلب صلاحية أو تنسيقًا مدعومًا.'; };
+  }
+
+  document.getElementById('save-url').addEventListener('click', saveUrl);
+  document.getElementById('cancel-modal').addEventListener('click', closeModal);
+  document.getElementById('delete-url').addEventListener('click', () => {
+    if (!editingId) return;
+    delete streamUrls[editingId];
+    persist();
+    const id = editingId;
+    closeModal();
+    renderChannels(document.getElementById('search').value);
+    notify('تم حذف رابط القناة');
+    if (selectedId === id) selectChannel(id);
+  });
+  document.getElementById('search').addEventListener('input', e => renderChannels(e.target.value));
+  backdrop.addEventListener('click', e => { if (e.target === backdrop) closeModal(); });
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'Enter' && backdrop.classList.contains('open')) saveUrl();
+  });
+  renderChannels();
+})();
+</script>
+</body>
+</html>
