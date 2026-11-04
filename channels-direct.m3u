@@ -1,0 +1,457 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="saudi-tv" tvg-logo="https://i.imgur.com/GRQTndk.png" group-title="عامة",السعودية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
+#EXTINF:-1 tvg-id="saudi-alaan" tvg-logo="https://i.imgur.com/sEOjApe.png" group-title="إخبارية",السعودية الآن
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-ksa-now/71ed3aa814c643306c0a8bc4fcc7d17f/index.m3u8
+#EXTINF:-1 tvg-id="sbc-tv" tvg-logo="https://i.imgur.com/9JSQglj.png" group-title="عامة",SBC
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/90e09c0c28db26435799b4a14892a167/index.m3u8
+#EXTINF:-1 tvg-id="thaqafiya" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=512&croppingPoint=&version=1&type=jpeg" group-title="عامة",الثقافية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
+#EXTINF:-1 tvg-id="cnbc-arabiya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/CNBC_Arabia_2025.svg/960px-CNBC_Arabia_2025.svg.png" group-title="إخبارية",CNBC العربية
+https://cnbc-live.akamaized.net/cnbc/master.m3u8
+#EXTINF:-1 tvg-id="i24-arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/960px-LOGO_i24NEWS.png" group-title="إخبارية",آي 24 نيوز عربي
+https://i24newsarabic-cdn.encoders.immergo.tv/master.m3u8
+#EXTINF:-1 tvg-id="alwesam" tvg-logo="https://i.imgur.com/rtqVAxf.png" group-title="عامة",الوسام
+https://stream.addresses-sat.com/Alwesam/index.m3u8
+#EXTINF:-1 tvg-id="riyadh-radio" tvg-logo="https://aloula.faulio.com/storage/mediagallery/37/1a/fullhd_399eddcc4305f34f41c7fab24c3518fab5d55d97.png" group-title="عامة",الرياض راديو
+https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8
+#EXTINF:-1 tvg-id="khuzama-radio" tvg-logo="https://shahid.mbc.net/mediaObject/61010cbc-91c5-4ce1-94a4-ed40adadb97b" group-title="عامة",الخزامى راديو
+https://live.kwikmotion.com/sbrksakhuzamaradiolive/srpkhuzama/playlist.m3u8
+#EXTINF:-1 tvg-id="amman-tv" tvg-logo="https://i.imgur.com/5l7kw0b.png" group-title="عامة",عمان
+https://ammantv-live.ercdn.net/ammantvhd/ammantvhd.m3u8
+#EXTINF:-1 tvg-id="altaghier" tvg-logo="https://i.imgur.com/YTyCBvB.png" group-title="عامة",التغيير
+https://jmc-live.ercdn.net/altaghier/altaghier.m3u8
+#EXTINF:-1 tvg-id="jordan-tv" tvg-logo="https://i.imgur.com/0XozB5N.png" group-title="عامة",الأردن
+https://jrtv-live.ercdn.net/jordanhd/jordanhd.m3u8
+#EXTINF:-1 tvg-id="jordan-archive" tvg-logo="https://i.imgur.com/8UrCl4k.png" group-title="عامة",الأرشيف
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Archive/playlist.m3u8
+#EXTINF:-1 tvg-id="jordan-drama" tvg-logo="https://yt3.googleusercontent.com/TKRfEhUz7Bc09o8BFsTbRcyu8_oxdMZjSZLAi_mKTh-dt2w0YyZGD-qZjL2qL0nq6HFEedTQ60Y=s900-c-k-c0x00ffffff-no-rj" group-title="مسلسلات وأفلام",دراما الأردن
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8
+#EXTINF:-1 tvg-id="iqraa-quran" tvg-logo="https://i.imgur.com/HPVsIa4.png" group-title="إسلامية",اقرأ — القرآن
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv2/playlist.m3u8
+#EXTINF:-1 tvg-id="iqraa-world" tvg-logo="https://i.imgur.com/nUlZvSe.png" group-title="إسلامية",اقرأ — عالمي
+https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8
+#EXTINF:-1 tvg-id="qatar-quran" tvg-logo="https://www.qmc.qa/img/LiveChannels/1ca67a44-9290-4b2a-8a16-d8c6e2260816.jpg" group-title="إسلامية",القرآن الكريم — قطر
+https://qatartv.akamaized.net/hls/live/20000612/qtvquran/master.m3u8
+#EXTINF:-1 tvg-id="makkah-tv" tvg-logo="https://i.ibb.co/r2k71w5N/download.png" group-title="إسلامية",مكة
+https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+#EXTINF:-1 tvg-id="ktv-sport" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="رياضية",الكويت — الرياضية
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ktv-sport-plus" tvg-logo="https://i.imgur.com/l4oX0gf.png" group-title="رياضية",الكويت — الرياضية 2
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="oman-sport" tvg-logo="https://i.imgur.com/1omi7p8.png" group-title="رياضية",عمان — الرياضية
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="jordan-sport" tvg-logo="https://i.imgur.com/2EmrZPQ.png" group-title="رياضية",الأردن — الرياضية
+https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8
+#EXTINF:-1 tvg-id="bahrain-sport" tvg-logo="https://i.imgur.com/fBpLsbC.png" group-title="رياضية",البحرين — الرياضية
+https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-a-spor-sd" tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="رياضية",A Spor
+https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
+#EXTINF:-1 tvg-id="sp-africa-24-sport" tvg-logo="https://i0.wp.com/africa24tv.com/wp-content/uploads/2023/12/LOGO-AFRICASPORT-4-HD-sans-fond.png?fit=512%2C107&ssl=1" group-title="رياضية",Africa 24 Sport
+https://africa24.vedge.infomaniak.com/livecast/ik:africa24sport/manifest.m3u8
+#EXTINF:-1 tvg-id="sp-al-iraqia-sport" tvg-logo="https://i.imgur.com/DrrlxTO.png" group-title="رياضية",العراقية الرياضية
+https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
+#EXTINF:-1 tvg-id="sp-bein-sports-xtra" tvg-logo="https://i.ibb.co/HT49GPmB/XTRA-2.png" group-title="رياضية",beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-bellator-mma" tvg-logo="https://i.imgur.com/VBKoLHk.png" group-title="رياضية",Bellator MMA
+https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
+#EXTINF:-1 tvg-id="sp-ge-fast" tvg-logo="https://i.ibb.co/WGXHDnF/logo-ge-fast.png" group-title="رياضية",ge Fast
+https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-ht-spor" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="رياضية",HT Spor
+https://ciner.daioncdn.net/ht-spor/ht-spor.m3u8?app=web
+#EXTINF:-1 tvg-id="sp-m-sports" tvg-logo="https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png" group-title="رياضية",M Sports
+https://cdn.rabta.stream/M-Sports/index.m3u8
+#EXTINF:-1 tvg-id="sp-match-planeta" tvg-logo="https://i.imgur.com/vhyMb9D.png" group-title="رياضية",Match! Planeta
+https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="sp-nhl-network" tvg-logo="https://i.imgur.com/UNZ8bef.png" group-title="رياضية",NHL Network
+https://nhl-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-persiana-fight" tvg-logo="" group-title="رياضية",Persiana Fight
+https://fighthls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="sp-pk-sports" tvg-logo="https://i.imgur.com/qtbSnrY.png" group-title="رياضية",PK Sports
+https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-sportsgrid" tvg-logo="https://i.imgur.com/ulGKX30.png" group-title="رياضية",SportsGrid
+https://sportsgrid-tribal.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-strongman-champions-league" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/30ccc088-dca7-4458-ad5a-328fef06e1ca-width200-quality90.png" group-title="رياضية",Strongman Champions League
+https://rightsboosterltd-scl-1-be.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-trace-sport-stars" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="رياضية",Trace Sport Stars
+https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-tsn-the-ocho" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/CA1400003R3_20240709T002034SQUARE.png" group-title="رياضية",TSN The Ocho
+https://d3pnbvng3bx2nj.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-rds8g35qfqrnv/TSN_The_Ocho.m3u8
+#EXTINF:-1 tvg-id="al-iraqia-general" tvg-logo="https://i.imgur.com/DrrlxTO.png" group-title="عامة",العراقية العامة
+https://imn-live.esite-lab.com/hls/iraqia-general.m3u8
+#EXTINF:-1 tvg-id="sp-cbs-sports-golazo-network" tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="رياضية",CBS Sports Golazo
+https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
+#EXTINF:-1 tvg-id="sp-dd-sports" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="رياضية",DD Sports
+https://mumbai-edge.smartplaytv.in/DDSportsHD/index.m3u8
+#EXTINF:-1 tvg-id="sp-el-heddaf-tv" tvg-logo="https://i.imgur.com/cDkIDIA.png" group-title="رياضية",الهدّاف
+https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
+#EXTINF:-1 tvg-id="sp-espn8-the-ocho" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png" group-title="رياضية",ESPN8 The Ocho
+https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-spain" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ إسبانيا
+https://d63fabad.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWVzX0ZJRkFQbHVzU3BhbmlzaF9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-women" tvg-logo="https://i.imgur.com/xy9ZxVO.png" group-title="رياضية",FIFA+ كرة السيدات
+https://cffda8ff.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9GSUZBUGx1c3dvbWVuX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fite-24-7" tvg-logo="https://i.imgur.com/ESV6qgH.png" group-title="رياضية",FITE قتال
+https://d3d85c7qkywguj.cloudfront.net/scheduler/scheduleMaster/263.m3u8
+#EXTINF:-1 tvg-id="sp-fuel-tv" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="رياضية",FUEL TV
+https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
+#EXTINF:-1 tvg-id="sp-glory-kickboxing-poland" tvg-logo="https://i.imgur.com/tS7Ub7i.png" group-title="رياضية",Glory كيك بوكسينغ
+https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-golf-channel" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="رياضية",Golf Channel
+https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-horse-tv" tvg-logo="https://i.imgur.com/nK4UUX4.png" group-title="رياضية",Horse TV
+https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-kozoom-tv" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="رياضية",Kozoom بلياردو
+https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
+#EXTINF:-1 tvg-id="sp-mma-tv-com" tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="رياضية",MMA TV
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-mutv" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="رياضية",MUTV مانشستر يونايتد
+https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="sp-nautical-channel" tvg-logo="https://i.imgur.com/2ByDyzL.png" group-title="رياضية",Nautical Channel
+https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-nbc-sports-now" tvg-logo="https://i.imgur.com/EzNf2Yx.png" group-title="رياضية",NBC Sports NOW
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-id="sp-pga-tour" tvg-logo="https://i.imgur.com/J0TY9dG.png" group-title="رياضية",PGA Tour
+https://d11k1mnrgfposz.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-prime-syria" tvg-logo="https://prime1tv.com/wp-content/uploads/2025/12/7-1.png" group-title="رياضية",بريم سوريا الرياضية
+https://cdn.bestream.io/prime/prime.m3u8
+#EXTINF:-1 tvg-id="sp-rally-tv" tvg-logo="https://i.postimg.cc/WtLq2C7c/logo-Rally-Tv1.png" group-title="رياضية",Rally TV
+https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
+#EXTINF:-1 tvg-id="sp-real-madrid-tv" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="رياضية",ريال مدريد TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
+#EXTINF:-1 tvg-id="sp-red-bull-tv" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="رياضية",Red Bull TV
+https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-setanta-sports-1-hd" tvg-logo="https://i.imgur.com/8ANUZAu.png" group-title="رياضية",Setanta Sports 1
+https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="sp-sony-sports-ten-1" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_1/images/LOGO_HD/image.png" group-title="رياضية",Sony Sports Ten 1
+https://cloudplay-sonyliv.pages.dev/ten1.m3u8
+#EXTINF:-1 tvg-id="sp-sony-sports-ten-2" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_2/images/LOGO_HD/image.png" group-title="رياضية",Sony Sports Ten 2
+https://cloudplay-sonyliv.pages.dev/ten2.m3u8
+#EXTINF:-1 tvg-id="sp-sony-sports-ten-5" tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SONY_SPORTS_TEN_5/images/LOGO_HD/image.png" group-title="رياضية",Sony Sports Ten 5
+https://cloudplay-sonyliv.pages.dev/ten5.m3u8
+#EXTINF:-1 tvg-id="sp-sport-qazaqstan" tvg-logo="https://i.imgur.com/vIV7x6n.png" group-title="رياضية",Sport+ Qazaqstan
+https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="sp-sportitalia" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="رياضية",Sportitalia
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-stadium" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/960px-Stadium_%28sports_network%29_logo.svg.png" group-title="رياضية",Stadium
+https://wurl120sports.global.transmit.live/hls/679a907dce42a042c23ace37/v1/stadium_gracenote/samsung_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" group-title="رياضية",Strongman
+https://rightsboosterltd-scl-2-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-talksport" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/9d/Talksport_logo.png" group-title="رياضية",talkSPORT
+https://af7a8b4e.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfdGFsa1NQT1JUX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-teledeporte" tvg-logo="https://i.ibb.co/0jxLdjnY/TDP.png" group-title="رياضية",Teledeporte
+https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8
+#EXTINF:-1 tvg-id="sp-tennis-channel-2" tvg-logo="https://image-resizer-cloud-cdn.api.cms.amdvids.com/image/7382296F-97F6-4450-B77B-8FE331FC04F6/3-1x1.png" group-title="رياضية",Tennis Channel 2
+https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
+#EXTINF:-1 tvg-id="sp-tennis-channel" tvg-logo="https://i.imgur.com/tsljAnY.png" group-title="رياضية",Tennis Channel
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischannelnl-samsungnl/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-tr-sport" tvg-logo="https://i.imgur.com/ELXmaqg.png" group-title="رياضية",TR Sport
+https://livetr.teleromagna.it/mia/live/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-tvr-sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/960px-TVR_Sport_Logo_2023.svg.png" group-title="رياضية",TVR Sport
+https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-willow-sports" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="رياضية",Willow كريكيت
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+#EXTINF:-1 tvg-id="sp-world-of-freesports" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="رياضية",World of Freesports
+https://mainstreammedia-worldoffreesportsintl-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-aflam" tvg-logo="https://i.imgur.com/cTLj7Yt.png" group-title="أفلام كاملة",أفلام
+https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-aflam-action" tvg-logo="https://i.imgur.com/NIVhISa.png" group-title="أفلام كاملة",أفلام أكشن
+https://shd-amg-fast.edgenextcdn.net/tx011/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-aflam-thriller" tvg-logo="https://i.imgur.com/JWihdcl.png" group-title="أفلام كاملة",أفلام إثارة
+https://shd-amg-fast.edgenextcdn.net/tx012/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-rotana-cinema" tvg-logo="https://i.imgur.com/pGgp38I.png" group-title="أفلام كاملة",روتانا سينما السعودية
+/api/public/hls?u=https%3A%2F%2Frotana.hibridcdn.net%2Frotananet%2Fcinema_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-rotana-cinema-masr" tvg-logo="https://i.imgur.com/dGlKoLW.png" group-title="أفلام كاملة",روتانا سينما مصر
+/api/public/hls?u=https%3A%2F%2Frotana.hibridcdn.net%2Frotananet%2Fcinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-rotana-drama" tvg-logo="https://i.imgur.com/btnhPjZ.png" group-title="مسلسلات وأفلام",روتانا دراما
+/api/public/hls?u=https%3A%2F%2Frotana.hibridcdn.net%2Frotananet%2Fdrama_net-7Y83PP5adWixDF93/playlist.m3u8
+#EXTINF:-1 tvg-id="ar-mbc-bollywood" tvg-logo="https://i.imgur.com/TTAGFHG.png" group-title="أفلام كاملة",MBC بوليوود
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
+#EXTINF:-1 tvg-id="ar-rotana-classic" tvg-logo="https://i.imgur.com/pMMUvkt.png" group-title="أفلام كاملة",روتانا كلاسيك
+/api/public/hls?u=https%3A%2F%2Frotana.hibridcdn.net%2Frotananet%2Fclassical_net-7Y83PP5adWixDF93%2Fplaylist.m3u8
+#EXTINF:-1 tvg-id="ar-rotana-comedy" tvg-logo="https://i.imgur.com/IlT8U6S.png" group-title="أفلام كاملة",روتانا كوميدي
+/api/public/hls?u=https%3A%2F%2Frotana.hibridcdn.net%2Frotananet%2Fcomedy_net-7Y83PP5adWixDF93%2Fplaylist.m3u8
+#EXTINF:-1 tvg-id="ar-jordan-drama" tvg-logo="https://i.imgur.com/gvIAEsJ.png" group-title="مسلسلات وأفلام",الأردن دراما
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Drama/playlist.m3u8
+#EXTINF:-1 tvg-id="mv-mix-hollywood" tvg-logo="https://i.imgur.com/1ENdbZn.png" group-title="أفلام كاملة",Mix Hollywood
+https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
+#EXTINF:-1 tvg-id="mbc-1" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="عامة",MBC 1
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+#EXTINF:-1 tvg-id="mbc-4" tvg-logo="https://i.imgur.com/BcXASJp.png" group-title="مسلسلات وأفلام",MBC 4
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1 tvg-id="mbc-5" tvg-logo="https://i.imgur.com/fRWaDyF.png" group-title="عامة",MBC 5
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-5/ee6b000cee0629411b666ab26cb13e9b/index.m3u8
+#EXTINF:-1 tvg-id="mbc-drama" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="مسلسلات وأفلام",MBC Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
+#EXTINF:-1 tvg-id="mbc-plus-drama" tvg-logo="https://i.imgur.com/lxWdjXG.png" group-title="مسلسلات وأفلام",MBC+ Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
+#EXTINF:-1 tvg-id="mbc-masr-drama" tvg-logo="https://media0070.elcinema.com/tvguide/1399_1.png" group-title="مسلسلات وأفلام",MBC مصر دراما
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+#EXTINF:-1 tvg-id="mbc-mood" tvg-logo="https://shahid.mbc.net/mediaObject/c2b6a882-458b-446e-b0fe-f97f7992149a?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="مسلسلات وأفلام",MBC Mood
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8
+#EXTINF:-1 tvg-id="al-arabiya-english" tvg-logo="https://shahid.mbc.net/mediaObject/7cfc0baf-1201-477f-b722-d3099fafe17f?height=230&width=512&croppingPoint=&version=1&type=png" group-title="إخبارية",العربية إنجليزي
+https://live.alarabiya.net/alarabiapublish/english/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="asharq-discovery" tvg-logo="https://i.imgur.com/Czxi7yk.png" group-title="أطفال ووثائقي",الشرق ديسكفري
+https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="asharq-documentary" tvg-logo="https://i.imgur.com/v6VsFEt.png" group-title="أطفال ووثائقي",الشرق الوثائقية
+https://svs.itworkscdn.net/asharqdocumentarylive/asharqdocumentary.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="atfal-mawaheb" tvg-logo="https://i.imgur.com/Y2BqP9m.png" group-title="أطفال ووثائقي",أطفال ومواهب
+https://5aafcc5de91f1.streamlock.net/atfal1.com/atfal2/playlist.m3u8
+#EXTINF:-1 tvg-id="bab-al-hara" tvg-logo="https://i.imgur.com/QtlnZbq.png" group-title="مسلسلات وأفلام",باب الحارة
+https://shd-amg-fast.edgenextcdn.net/tx010/playlist.m3u8
+#EXTINF:-1 tvg-id="maraya" tvg-logo="https://shahid.mbc.net/mediaObject/d089a559-4f41-4def-a786-f98fcfbf0464?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="مسلسلات وأفلام",مرايا
+https://shd-amg-fast.edgenextcdn.net/tx008/playlist.m3u8
+#EXTINF:-1 tvg-id="big-time-plus" tvg-logo="https://shahid.mbc.net/mediaObject/4e042cb6-500b-4e4c-a8ca-21a5a7a7a71b" group-title="عامة",بيغ تايم بلس
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-big-time-plus/924283f994779a311c1389698ff7e736/index.m3u8
+#EXTINF:-1 tvg-id="ajman-tv" tvg-logo="https://i.imgur.com/hVNIwgE.png" group-title="عامة",عجمان
+https://cdn1.logichost.in/ajmantv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="al-shallal" tvg-logo="https://i.imgur.com/otAHLRo.png" group-title="عامة",الشلال
+https://amg01480-alshallalfze-alshallal-ono-q0hfg.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="al-wousta" tvg-logo="https://i.imgur.com/zgMqQPQ.png" group-title="عامة",الوسطى
+https://svs.itworkscdn.net/alwoustalive/alwoustatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="al-yaum" tvg-logo="https://i.imgur.com/rBixF3P.png" group-title="إخبارية",اليوم
+https://hlspackager.akamaized.net/live/DB/ALYAUM_TV/HLS/ALYAUM_TV.m3u8
+#EXTINF:-1 tvg-id="sharjah-tv" tvg-logo="https://i.imgur.com/Oz2bPOt.png" group-title="عامة",الشارقة
+https://live.kwikmotion.com/smc1live/smc1tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="sharjah-2" tvg-logo="https://i.imgur.com/Wd3Xvd1.png" group-title="إسلامية",الشارقة 2
+https://svs.itworkscdn.net/smc2live/smc2tv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="nour-tv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg" group-title="إسلامية",نور
+https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
+#EXTINF:-1 tvg-id="ch4teen" tvg-logo="https://i.imgur.com/pHpFGeg.png" group-title="أطفال ووثائقي",شباب وثائقي
+https://ch14.tv/live/ch4teendoc/playlist.m3u8
+#EXTINF:-1 tvg-id="ktv-1" tvg-logo="https://i.imgur.com/kG0d8Ay.png" group-title="عامة",تلفزيون الكويت 1
+https://kwtktv1ta.cdn.mangomolo.com/ktv1/smil:ktv1.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ktv-2" tvg-logo="https://i.imgur.com/hB57mNh.png" group-title="عامة",تلفزيون الكويت 2
+https://kwtktv2ta.cdn.mangomolo.com/ktv2/smil:ktv2.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ktv-qurain" tvg-logo="https://i.imgur.com/naVEZtj.png" group-title="إسلامية",الكويت — القرين
+https://kwtktvaqta.cdn.mangomolo.com/ktvaq/smil:tktvaq.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ktv-arabe" tvg-logo="https://i.imgur.com/jg3VAxO.png" group-title="عامة",الكويت — العربي
+https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ktv-ethraa" tvg-logo="https://i.imgur.com/hqEbc49.png" group-title="إسلامية",الكويت — إثراء
+https://kwtethta.cdn.mangomolo.com/eth/smil:eth.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="ktv-news" tvg-logo="https://i.imgur.com/erZ0Ol1.png" group-title="إخبارية",الكويت — الأخبار
+https://kwtkbta.cdn.mangomolo.com/kb/smil:kb.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="al-rayyan" tvg-logo="https://i.imgur.com/Ts3RjTV.png" group-title="عامة",الريان
+https://alrayyancdn.vidgyor.com/pub-noalrayy3pwz0l/liveabr/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="al-rayyan-old" tvg-logo="https://i.imgur.com/4qB5iN0.png" group-title="عامة",الريان القديم
+https://alrayyancdn.vidgyor.com/pub-nooldraybinbdh/liveabr/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="qatar-tv-2" tvg-logo="https://i.imgur.com/iWJxDUm.png" group-title="عامة",تلفزيون قطر 2
+https://live.kwikmotion.com/qtv2live/qtv2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="koogi" tvg-logo="https://i.imgur.com/zojMTP9.png" group-title="أطفال ووثائقي",كوجي للأطفال
+https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="mbc-masr" tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="عامة",MBC مصر
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+#EXTINF:-1 tvg-id="mbc-masr-2" tvg-logo="https://i.imgur.com/KHo7Gtn.png" group-title="عامة",MBC مصر 2
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
+#EXTINF:-1 tvg-id="watan-tv" tvg-logo="https://i.imgur.com/pZyKaUH.png" group-title="عامة",وطن
+https://rp.tactivemedia.com/watantv_source/live/playlist.m3u8
+#EXTINF:-1 tvg-id="jordan-comedy" tvg-logo="https://i.imgur.com/DuwwoO2.png" group-title="مسلسلات وأفلام",الأردن كوميدي
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Comedy/playlist.m3u8
+#EXTINF:-1 tvg-id="jordan-kitchen" tvg-logo="https://i.imgur.com/B45qcQX.png" group-title="عامة",الأردن مطبخ
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8
+#EXTINF:-1 tvg-id="jordan-tourism" tvg-logo="https://i.imgur.com/gpeIoU9.png" group-title="أطفال ووثائقي",الأردن سياحة
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Tourism/playlist.m3u8
+#EXTINF:-1 tvg-id="roya-tv" tvg-logo="https://i.imgur.com/WX80rty.png" group-title="عامة",رؤيا
+https://live.kwikmotion.com/royatvpublic/royatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-ktv-sport" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="رياضية",الكويت الرياضية — مباشر
+https://kwtspta.cdn.mangomolo.com/sp/smil:sp.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="sp-ktv-sport-plus" tvg-logo="https://i.imgur.com/l4oX0gf.png" group-title="رياضية",الكويت الرياضية بلس
+https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="sp-30a-golf-kingdom" tvg-logo="https://i.imgur.com/Lv53nh4.png" group-title="رياضية",30A Golf Kingdom
+https://30a-tv.com/feeds/vidaa/golf.m3u8
+#EXTINF:-1 tvg-id="sp-acc-digital-network" tvg-logo="https://i.imgur.com/V6Kaqha.png" group-title="رياضية",ACC Digital Network
+https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-as3-sport-tv" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="رياضية",AS3 Sport TV
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="sp-cricket-gold" tvg-logo="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" group-title="رياضية",Cricket Gold
+https://streams2.sofast.tv/ptnr-yupptv/title-cricketgold/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b2048bb8-1686-4432-aa50-647245383e0c/manifest.m3u8
+#EXTINF:-1 tvg-id="sp-draftkings-network" tvg-logo="https://i.imgur.com/SFYhgrt.png" group-title="رياضية",DraftKings Network
+https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
+#EXTINF:-1 tvg-id="sp-equidia" tvg-logo="https://i.imgur.com/QPpbRcZ.png" group-title="رياضية",Equidia
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/equidia/live2.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-french" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ French
+https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-german" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ German
+https://4397879b.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWRlX0ZJRkFQbHVzR2VybWFuX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-italy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ Italy
+https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-portuguese" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ Portuguese
+https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-united-states" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ United States
+https://d2w9q46ikgrcwx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-of5cbk3sav3w5/v1/sysdata_s_p_a_fifa_7/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fifa-hispanic-america" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/FIFA%2B_(2025).svg/960px-FIFA%2B_(2025).svg.png" group-title="رياضية",FIFA+ Hispanic America
+https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fightbox-hd" tvg-logo="https://i.imgur.com/mRsnztA.png" group-title="رياضية",FightBox HD
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
+#EXTINF:-1 tvg-id="sp-flohockey" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/flohockey-white.png" group-title="رياضية",FloHockey
+https://amg02278-amg02278c2-flosports-worldwide-9916.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-floracing" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/floracing-white.png" group-title="رياضية",FloRacing
+https://amg02278-amg02278c1-flosports-worldwide-7592.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-ftf-sports" tvg-logo="https://i.imgur.com/yvUjOI3.png" group-title="رياضية",FTF Sports
+https://1593604785.rsc.cdn77.org/FTF/FTF_SCTE.m3u8
+#EXTINF:-1 tvg-id="sp-game" tvg-logo="https://i.imgur.com/Lj69WbR.png" group-title="رياضية",Game+
+https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-lacrosse-tv" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_m_xSJFydxZ9QBU-85OuchjmzS0Bo0_Tukmk7to8hBfyl8=s512-c-k-c0x00ffffff-no-rj" group-title="رياضية",Lacrosse TV
+https://a-cdn.klowdtv.com/live2/lsn_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-more-than-sports-tv" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="رياضية",More Than Sports TV
+https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-racer-international" tvg-logo="https://provider-static.plex.tv/epg/cms/production/dd4e5871-4347-49e3-9ea1-a8770ea9c518/RACER_Intl_logo_1500x1000.png" group-title="رياضية",RACER International
+https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-red-bull-tv-uk" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="رياضية",Red Bull TV UK
+https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-red-bull-tv-us" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="رياضية",Red Bull TV US
+https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-sky-racing-1" tvg-logo="https://i.imgur.com/Hf0EiaW.png" group-title="رياضية",Sky Racing 1
+https://636ffd31f0e12.streamlock.net/RacingStream1/RacingStream1/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-slopes-tv" tvg-logo="https://i.imgur.com/8bzAfgK.png" group-title="رياضية",Slopes TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2241
+#EXTINF:-1 tvg-id="sp-sporty-tv" tvg-logo="https://i.imgur.com/Wz5bQKx.jpeg" group-title="رياضية",Sporty TV
+https://dash2.antik.sk/live/sporty_tv/index.m3u8
+#EXTINF:-1 tvg-id="sp-swerve-combat" tvg-logo="https://i.imgur.com/eFZh7aG.png" group-title="رياضية",Swerve Combat
+https://linear-253.frequency.stream/mt/roku/253/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-swerve-sports" tvg-logo="https://i.imgur.com/GT0Yi2T.png" group-title="رياضية",Swerve Sports
+https://a-cdn.klowdtv.com/live3/swervewomenssports_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-tvs-boxing" tvg-logo="https://i.imgur.com/30ZoF75.png" group-title="رياضية",TVS Boxing
+https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
+#EXTINF:-1 tvg-id="sp-tvs-classic-sports" tvg-logo="https://i.imgur.com/auR0Mi6.png" group-title="رياضية",TVS Classic Sports
+https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
+#EXTINF:-1 tvg-id="sp-tvs-women-sports" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="رياضية",TVS Women Sports
+https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
+#EXTINF:-1 tvg-id="sp-unbeaten" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="رياضية",Unbeaten
+https://d1t5afz6qed3xk.cloudfront.net/Unbeaten.m3u8
+#EXTINF:-1 tvg-id="sp-world-poker-tour" tvg-logo="https://i.imgur.com/98kLMjj.png" group-title="رياضية",World Poker Tour
+https://d2e00kr7m9coe4.cloudfront.net/scheduler/scheduleMaster/406.m3u8
+#EXTINF:-1 tvg-id="sp-xfc-tv" tvg-logo="https://i.imgur.com/LcfzmG0.png" group-title="رياضية",XFC TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
+#EXTINF:-1 tvg-id="sp-inter-tv-italy" tvg-logo="https://i.imgur.com/FUTqh2L.png" group-title="رياضية",Inter TV (Italy)
+https://d3k8wzt41aflvx.cloudfront.net/INTERTV/Live.m3u8
+#EXTINF:-1 tvg-id="asharq-news" tvg-logo="https://i.imgur.com/bqRC3sl.png" group-title="إخبارية",الشرق للأخبار
+https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-id="bloomberg-tv-europe" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="إخبارية",Bloomberg TV
+https://bloomberg.com/media-manifest/streams/eu.m3u8
+#EXTINF:-1 tvg-id="rt-arabic" tvg-logo="" group-title="إخبارية",RT Arabic
+https://rt-arb.rttv.com/live/rtarab/playlist.m3u8
+#EXTINF:-1 tvg-id="mood-tarab" tvg-logo="https://assets.mbcmood.com/channels/1738059679TARAB_Logo.png" group-title="عامة",طرب
+https://shd-amg-fast.edgenextcdn.net/tx002/playlist.m3u8
+#EXTINF:-1 tvg-id="mood-mohammed-abdo" tvg-logo="https://assets.mbcmood.com/channels/1720184012Mohammed%20Abdo%20banner.png" group-title="عامة",محمد عبده
+https://d2ow8h651gs7dx.cloudfront.net/out/v1/371fb663da604e659a2fb99bf89d92d4/index.m3u8
+#EXTINF:-1 tvg-id="mood-abdulmajeed" tvg-logo="https://assets.mbcmood.com/channels/1720184087Abdullah%20Majeed%20Abdullah%20banner.png" group-title="عامة",عبدالمجيد عبدالله
+https://d2hng5r56zpsbw.cloudfront.net/out/v1/9c4c990f44bb4767bb46271f326dd574/index.m3u8
+#EXTINF:-1 tvg-id="mood-rashed" tvg-logo="https://assets.mbcmood.com/channels/1720177618Rashid%20AlMajed.webp" group-title="عامة",راشد الماجد
+https://dphwv2ufgnfsq.cloudfront.net/out/v1/59cd80dfe93a479eb8b4d79bc6f225ca/index.m3u8
+#EXTINF:-1 tvg-id="mood-majid" tvg-logo="" group-title="عامة",ماجد المهندس
+https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8
+#EXTINF:-1 tvg-id="mood-rabeh" tvg-logo="https://shahid.mbc.net/mediaObject/b98b0635-c8ed-4a7c-9efa-5856e278f54b?type=png" group-title="عامة",رابح صقر
+https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8
+#EXTINF:-1 tvg-id="mood-fairuz" tvg-logo="https://shahid.mbc.net/mediaObject/f809d51c-e83d-43c9-8236-78731c2216ad?type=png" group-title="عامة",فيروز
+https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8
+#EXTINF:-1 tvg-id="jordan-songs" tvg-logo="https://i.imgur.com/1DE7Gmw.png" group-title="عامة",أغاني أردنية
+https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8
+#EXTINF:-1 tvg-id="sharqiya-kabla" tvg-logo="https://i.imgur.com/m4qheI4.png" group-title="عامة",الشرقية من كلا
+https://svs.itworkscdn.net/kablatvlive/kabtv1.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="alistiqama-tv" tvg-logo="https://i.imgur.com/2FPtYZr.png" group-title="إسلامية",قناة الاستقامة
+https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8
+#EXTINF:-1 tvg-id="iraqia-news" tvg-logo="https://i.imgur.com/feQTXeZ.jpg" group-title="إخبارية",العراقية الإخبارية
+https://imn-live.esite-lab.com/hls/iraqia-news.m3u8
+#EXTINF:-1 tvg-id="mbc-iraq" tvg-logo="https://i.imgur.com/D0LxiPE.png" group-title="عامة",MBC العراق
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+#EXTINF:-1 tvg-id="mbc-1-egypt" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="عامة",MBC 1 مصر
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
+#EXTINF:-1 tvg-id="oman-mubashir" tvg-logo="https://i.imgur.com/UkQTR5b.png" group-title="إخبارية",عمان مباشر
+https://partwota.cdn.mgmlcdn.com/omlive/smil:omlive.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="oman-cultural" tvg-logo="https://i.imgur.com/b38wNPK.png" group-title="أطفال ووثائقي",عمان الثقافية
+https://partwota.cdn.mgmlcdn.com/omcultural/smil:omcultural.stream.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="i-news" tvg-logo="https://i.imgur.com/9lOuzHQ.png" group-title="إخبارية",I News
+https://live.i-news.tv/hls/stream.m3u8
+#EXTINF:-1 tvg-id="iraq-future" tvg-logo="https://i.imgur.com/Z7woTe5.png" group-title="عامة",العراق المستقبل
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_040/Stream/playlist.m3u8
+#EXTINF:-1 tvg-id="alawla-tv" tvg-logo="https://i.imgur.com/3Kv0t3X.png" group-title="عامة",الأولى
+https://live.alawla.tv/hls/stream.m3u8
+#EXTINF:-1 tvg-id="karbala-doc" tvg-logo="https://www.karbala-tv.iq/documentary/static/img/logo.png" group-title="أطفال ووثائقي",كربلاء الوثائقية
+https://ktvlive.online/stream/hls/ch3.m3u8
+#EXTINF:-1 tvg-id="alquran-ktv" tvg-logo="https://i.imgur.com/lqVwrAF.png" group-title="إسلامية",القرآن الكريم — كربلاء
+https://ktvlive.online/stream/hls/ch1.m3u8
+#EXTINF:-1 tvg-id="alarabiya-programs" tvg-logo="https://i.imgur.com/Hoc3cfO.png" group-title="أطفال ووثائقي",العربية برامج
+https://live.alarabiya.net/alarabiapublish/aaprograms.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="alaraby-2" tvg-logo="https://i.imgur.com/Gp5mNea.png" group-title="عامة",العربي 2
+https://live.kwikmotion.com/alaraby2live/alaraby2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="aljazeera-mubasher-2" tvg-logo="https://i.imgur.com/nJmi6G6.png" group-title="إخبارية",الجزيرة مباشر 2
+https://live-hls-apps-ajm2-fa.getaj.net/AJM2/index.m3u8
+#EXTINF:-1 tvg-id="medi1-arabic" tvg-logo="https://i.imgur.com/3YsZPY6.jpeg" group-title="إخبارية",ميدي 1 تيفي
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
+#EXTINF:-1 tvg-id="mtv-lebanon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/Murr_tv.png" group-title="عامة",MTV لبنان
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mtv-lebanon/b8ebb2a5affb812f1541712adde10e26/index.m3u8
+#EXTINF:-1 tvg-id="future-tv" tvg-logo="https://i.imgur.com/OaqEpwe.png" group-title="عامة",تلفزيون المستقبل
+https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="hala-london" tvg-logo="https://i.imgur.com/bM4VZDH.png" group-title="عامة",هلا لندن
+https://halalondon-live.ercdn.net/halalondon/halalondon.m3u8
+#EXTINF:-1 tvg-id="watania-1" tvg-logo="https://i.imgur.com/gNr2V14.png" group-title="عامة",الوطنية التونسية 1
+https://sw1.tanitweb.net/TunisiaTV/_definst_/watania1/chunklist.m3u8
+#EXTINF:-1 tvg-id="mbc-drama-usa" tvg-logo="https://i.imgur.com/g5PWnqp.png" group-title="مسلسلات وأفلام",MBC دراما أمريكا
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama-usa/ea2f5db904aff224b7066e59c7f585a2/index.m3u8
+#EXTINF:-1 tvg-id="master-chefs" tvg-logo="https://platform-iuoamc.uk/storage/tv/branding/mca-tv-official-logo.png" group-title="أطفال ووثائقي",أكاديمية الطهاة
+https://platform-iuoamc.uk/iptv/mca-tv/index.m3u8
+#EXTINF:-1 tvg-id="libya-wataniya" tvg-logo="https://i.imgur.com/KSUny9D.jpeg" group-title="عامة",ليبيا الوطنية
+https://cdn-globecast.akamaized.net/live/eds/libya_al_watanya/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="sudan-tv" tvg-logo="https://i.imgur.com/XUPAYAA.png" group-title="عامة",تلفزيون السودان
+https://cdn-globecast.akamaized.net/live/eds/sudan_tv/hls_roku/index.m3u8
+#EXTINF:-1 tvg-id="althania-syria" tvg-logo="" group-title="عامة",السورية الثانية
+https://live.kwikmotion.com/syriatv02live/syriatv02.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="al-souriya" tvg-logo="https://i.imgur.com/8FILgXT.jpeg" group-title="عامة",السورية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8
+#EXTINF:-1 tvg-id="otv-lebanon" tvg-logo="https://i.imgur.com/toxFMeY.png" group-title="عامة",OTV لبنان
+https://otv.hibridcdn.net/otv/tv_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="voice-of-lebanon" tvg-logo="https://i.imgur.com/f8WcqRY.png" group-title="إخبارية",صوت لبنان
+https://svs.itworkscdn.net/vdltvlive/vdltv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="utv-iraq" tvg-logo="https://i.imgur.com/9qFHjnu.png" group-title="عامة",UTV العراق
+https://utviraqi-live.lg.mncdn.com/utviraqi-live/64c80359/index.m3u8
+#EXTINF:-1 tvg-id="alwasat-tv" tvg-logo="https://i.imgur.com/f9pL2NE.png" group-title="عامة",الوسط
+https://alwasattv.hibridcdn.net/alwasattv/alwasat_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="medi1-maghreb" tvg-logo="https://i.imgur.com/F5OFQsp.jpeg" group-title="إخبارية",ميدي 1 المغرب العربي
+https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
+#EXTINF:-1 tvg-id="story-channel" tvg-logo="https://i.imgur.com/ZBV6xph.png" group-title="أطفال ووثائقي",ستوري تشانل
+https://136044159.r.cdnsun.net/storychannel.m3u8
+#EXTINF:-1 tvg-id="bahrain-tv" tvg-logo="" group-title="عامة",تلفزيون البحرين
+https://5c7b683162943.streamlock.net/live/ngrp:bahraintvmain_all/playlist.m3u8
+#EXTINF:-1 tvg-id="bahrain-international" tvg-logo="" group-title="عامة",البحرين الدولية
+https://5c7b683162943.streamlock.net/live/ngrp:bahraininternational_all/playlist.m3u8
+#EXTINF:-1 tvg-id="bahrain-quran" tvg-logo="" group-title="إسلامية",البحرين — القرآن الكريم
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8
+#EXTINF:-1 tvg-id="bahrain-sports-2" tvg-logo="" group-title="رياضية",البحرين الرياضية 2
+https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
+#EXTINF:-1 tvg-id="qbc-qatar" tvg-logo="" group-title="إخبارية",QBC قطر للأعمال
+https://live.kwikmotion.com/qbusinesslive/qbusiness.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="al-rasheed" tvg-logo="" group-title="عامة",الرشيد
+https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
+#EXTINF:-1 tvg-id="al-sharqiya-iq" tvg-logo="" group-title="عامة",الشرقية
+https://indexforce.com/tvhighres/mystream/playlist.m3u8
+#EXTINF:-1 tvg-id="pmc" tvg-logo="" group-title="عامة",PMC
+https://pmchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="one-tv-lb" tvg-logo="" group-title="عامة",One TV لبنان
+https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8
+#EXTINF:-1 tvg-id="chada-tv" tvg-logo="" group-title="عامة",شدى تيفي
+https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
+#EXTINF:-1 tvg-id="sp-redbull-tv" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="رياضية",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="sp-fubo-sports" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="رياضية",Fubo Sports Network
+https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
+#EXTINF:-1 tvg-id="sp-tyc-sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="رياضية",TyC Sports
+https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-fuel-tv" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="رياضية",FUEL TV
+https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-overtime" tvg-logo="https://i.imgur.com/9S9k4IK.png" group-title="رياضية",Overtime
+https://d1a8aq6t30gkqj.cloudfront.net/v1/amc_overtime_1/samsungheadend_us/latest/main/hls/playlist_hd.m3u8
+#EXTINF:-1 tvg-id="sp-racer-select" tvg-logo="https://i.imgur.com/CurtYvn.png" group-title="رياضية",Racer Select
+https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-nhra-tv" tvg-logo="https://i.imgur.com/jZgcm4k.png" group-title="رياضية",NHRA TV
+https://d265y4sk8257lt.cloudfront.net/nh.m3u8
+#EXTINF:-1 tvg-id="sp-san-marino-sport" tvg-logo="https://i.imgur.com/PGm944g.png" group-title="رياضية",San Marino RTV Sport
+https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/smil:ch-02.smil/master.m3u8
+#EXTINF:-1 tvg-id="sp-dd-sports" tvg-logo="https://dtil.tmsimg.com/assets/s158255_ld_h15_aa.png?lock=720x540" group-title="رياضية",DD Sports
+https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
+#EXTINF:-1 tvg-id="sp-strongman" tvg-logo="https://i.imgur.com/bVQBF6R.png" group-title="رياضية",Strongman
+https://rightsboosterltd-scl-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="sp-tjk-tv" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="رياضية",TJK TV
+https://tjktv-live.tjk.org/tjktv.m3u8
+#EXTINF:-1 tvg-id="sp-mnb-sport" tvg-logo="https://i.imgur.com/z854PC3.png" group-title="رياضية",MNB Sport
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
