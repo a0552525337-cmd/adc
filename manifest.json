@@ -1,0 +1,18 @@
+{
+  "destination": "https://almoghani-net-22.lovable.app/iptv.html",
+  "mode": "merge functionality into destination; preserve all destination design",
+  "counts": {
+    "channels": 316,
+    "direct": 228,
+    "youtube_only": 88,
+    "movies": 50,
+    "series": 9
+  },
+  "source_reference_only": true,
+  "excluded": [
+    "original UI, CSS, layout artwork",
+    "private IPTV subscription credentials and encoded catalogs",
+    "account records, passwords, env files and generated integrations",
+    "project-specific migration assigning original owner role"
+  ]
+}
